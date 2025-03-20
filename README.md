@@ -2,9 +2,19 @@
 
 ## Demo
 ---
+1. Chat Commands
+   - /help
+   - /tests
+      - calculator.py
+      - @workspace /tests (Sonnet)
+      - pytest tests/ <!-- (remove add max float if it appears) -->
+   - @vscode
+      - "where can I find the setting to enable next edit suggestions?"
+1. Next Edit Suggestions
+   - classic Point to Point3D example
 1. Agent Mode
       - now with no files (or even no directory!)
-      - "can you write unit tests for all of my python files? (except for calculator!)"
+      - "can you write unit tests for all of my python files? (except for calculator.py + sql.py!)"
       - pytest tests/ <!-- let Agent mode iterate if needed -->
       - Hope for some failures (no, seriously! so we can see agent mode in action)
 1. Copilot Edits
@@ -20,6 +30,8 @@
       - At the end
 1. Custom Instructions
    - show using to specify unit test framework
+   - "Prepend all suggested comments with 'Comment:'"
+   - Whenever I ask a generic, non-language specific question and you want to show me code, always show me Rust.
 
 Unused
 ---
